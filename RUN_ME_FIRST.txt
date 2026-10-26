@@ -1,0 +1,22 @@
+ECONOSIM-AI - RUN ME FIRST
+
+1. Extract/merge this project into your ECONOSIM-AI folder.
+2. Open the folder in VS Code.
+3. Open PowerShell in the project folder.
+4. Activate the existing environment:
+   .venv\Scripts\activate
+5. Install all project dependencies:
+   py -m pip install -r requirements.txt
+6. Generate the built-in synthetic dataset and train the initial model:
+   py run.py
+7. Run tests:
+   py -m pytest
+8. Start the dashboard:
+   py -m streamlit run frontend/app.py
+9. Optional: start the API in another terminal:
+   py -m uvicorn app.api.main:app --reload
+
+The included synthetic dataset makes the application runnable immediately.
+For the final academic/research version, replace it with authoritative external
+economic data and document calibration, validation, sensitivity analysis and
+experimental results. Those are research inputs/evidence, not missing source files.

@@ -1,0 +1,6 @@
+{
+  "project_name": "ECONOSIM-AI",
+  "default_simulation_years": 5,
+  "model_target": "gdp",
+  "data_mode": "synthetic_until_external_data_is_added"
+}

@@ -1,0 +1,7 @@
+services:
+  econosim:
+    build: .
+    ports:
+      - "8501:8501"
+    environment:
+      - APP_ENV=production
